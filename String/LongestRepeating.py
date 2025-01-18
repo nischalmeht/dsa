@@ -1,3 +1,5 @@
 def Repeat(str):
-    for i in range(len(str)):
-        
+    i=0    
+    while i <len(str) and str[i]==str[i+1]:
+        i+=1
+print(Repeat("Nischal"))
